@@ -1,3 +1,4 @@
+# 진법변환 : B진수(N) -> 10진수로
 from sys import stdin
 
 N, B = stdin.readline().split()

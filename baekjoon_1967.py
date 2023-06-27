@@ -1,4 +1,4 @@
-# 트리의 지름 : BFS
+# 트리의 지름 : 너비기반 탐색 BFS
 from sys import stdin
 INF = -1
 

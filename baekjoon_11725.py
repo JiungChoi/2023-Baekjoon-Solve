@@ -1,4 +1,4 @@
-# 트리의 부모찾기 : DFS, 스택
+# 트리의 부모찾기 : DFS, 스택 
 from sys import stdin
 
 N = int(stdin.readline())

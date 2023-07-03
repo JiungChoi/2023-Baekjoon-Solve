@@ -5,7 +5,7 @@ N = int(stdin.readline())
 graph = [[] for _ in range(N + 1)]
 haveParent = [False] * (N+1)
 
-def whoIsParent(graph):
+def whoIsParent(graph): 
     
     queue = [1]
     while queue:

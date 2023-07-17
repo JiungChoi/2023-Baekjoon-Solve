@@ -23,13 +23,14 @@ def dfs(grp, v):
     for i in range(N+1):
         graph[i].sort(reverse=True)
 
+    ary = []
     while stack:
         now = stack.pop()
         if visited[now] == False:
             visited[now] = True
             stack += grp[now]
-            print(now, end=" ")
-    print()
+            ary.append(now)
+    return ary
 
 def bfs(grp, v):
     
@@ -40,14 +41,15 @@ def bfs(grp, v):
     for i in range(N+1):
         graph[i].sort()
 
+    ary = []
     while queue:
         now = queue[0]
         queue = queue[1:]
         if visited[now] == False:
             visited[now] = True
             queue += grp[now]
-            print(now, end=" ")
-    print()
+            ary.append(now)
+    return ary
 
 # Input Graph
 graph = [[] for _ in range(N+1)]
@@ -56,5 +58,5 @@ for _ in range(M):
     graph[a].append(b)
     graph[b].append(a)
 
-dfs(graph, V)
-bfs(graph, V)
+print(*dfs(graph, V))
+print(*bfs(graph, V))

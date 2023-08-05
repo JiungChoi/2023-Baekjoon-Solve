@@ -15,45 +15,53 @@
         2. 한 번 온 곳을 다시 왔을 경우 cycle이 생긴것. 방문한 위치에 대해 visited를 만들어 저장
         3. dp table을 만들어 각 위치까지 올 수 있는 횟수를 저장
         4. 스택에 경로를 저장하고 DFS 모든 경로를 돌고나서 종료
-            스택 구조 : (row, column, pre_row, pre_column)
+            스택 구조 : (row, column)
 '''
 
 from sys import stdin
-from sys import setrecursionlimit
-setrecursionlimit(10**6)
 
 
 def getBiggest(board):
     N, M = len(board), len(board[0])
     dp = [[0 for _ in range(M)] for _ in range(N)]
-    visited = [[False for _ in range(M)] for _ in range(N)]    
+    visited = [[False for _ in range(M)] for _ in range(N)]
 
-    stack = [(0, 0, 0)]
-    for row, column, pre_X in stack:
+    stack = [(0, 0)]
+    
+    while stack:
+        
+        row, column = stack.pop()
         X = int(board[row][column])
-        if visited[row][column]: 
-            if X == pre_X: return -1
+
+        if visited[row][column]: return -1
         else : visited[row][column] = True
         
         if (column+X<M):
             if (board[row][column+X] != "H"):
-                stack.append((row, column+X, X))
+                stack.append((row, column+X))
                 dp[row][column+X] = max(dp[row][column+X] ,dp[row][column]+1)
+        
             
-        if (column-X>0):
+
+        if (column-X>=0):
             if (board[row][column-X] != "H"):
-                stack.append((row, column-X, X))
+                stack.append((row, column-X))
                 dp[row][column-X] = max(dp[row][column-X] ,dp[row][column]+1)
+        
 
         if (row+X<N):
             if (board[row+X][column] != "H"):
-                stack.append((row+X, column, X))
+                stack.append((row+X, column))
                 dp[row+X][column] = max(dp[row+X][column] ,dp[row][column]+1)
-            
-        if (row-X>0): 
+        
+
+        if (row-X>=0): 
             if (board[row-X][column] != "H"):
-                stack.append((row-X, column, X))
+                stack.append((row-X, column))
                 dp[row-X][column] = max(dp[row-X][column] ,dp[row][column]+1)
+        
+
+        
 
     return max(map(max, dp)) +1
 

@@ -33,7 +33,7 @@ def getPossibleCase(M):
         dp[i] = 0
 
     for i in range(6*M, 21, -1):
-        dp[i] = 
+        dp[i] = 3
 
 
     return dp[-1]

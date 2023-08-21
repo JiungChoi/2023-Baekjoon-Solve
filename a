@@ -1,0 +1,138 @@
+[33mcommit f95ee8f6ed7d0e284d315264af050ab9dfb8e140[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Mon Aug 21 14:52:32 2023 +0900
+
+    Test Git2
+
+[33mcommit abcce7c34559184b4521438b39f864727c4416ab[m[33m ([m[1;32mdev2[m[33m)[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Aug 8 23:10:35 2023 +0900
+
+    COMMIT
+
+[33mcommit ca1dedb21083abe5ade74fece8fbb550382b10df[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Sun Aug 6 08:32:26 2023 +0900
+
+    COMMIT
+
+[33mcommit 12ddbef3205fded8dcc0212da7b7b4afe366fcc3[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Jul 18 22:30:27 2023 +0900
+
+    COMMIT
+
+[33mcommit 9e88154945b8051d3b7f1ffd9238043bd6ed109f[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Jul 18 11:38:06 2023 +0900
+
+    COMMIT
+
+[33mcommit f99e4656c6330d340bc74a765f495608e8cb88fa[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Mon Jul 17 23:25:07 2023 +0900
+
+    COMMIT
+
+[33mcommit 8e062f8becde4a2bc6b2b9a5db07b5462df45786[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Fri Jul 14 00:16:53 2023 +0900
+
+    COM<MIT
+
+[33mcommit 0f721c92144591c823f0d9beab51151cc4d82471[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Jul 4 07:07:31 2023 +0900
+
+    COMMIT
+
+[33mcommit a165474ffe6a44e0f3b773030a584c1dc7bf9008[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Mon Jul 3 23:58:41 2023 +0900
+
+    COMMIT
+
+[33mcommit c9547a3404d72d3f5cf6b67247002b7a33e0c3dc[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Sun Jul 2 22:13:16 2023 +0900
+
+    COMMIT
+
+[33mcommit 1f2bd770a58ce50a10866d42b5dc07fddc334496[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Sat Jul 1 23:46:26 2023 +0900
+
+    COMMIT
+
+[33mcommit 30dc1b55f839d7162f9a8273e510549574de6265[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 29 22:48:08 2023 +0900
+
+    COMMIT
+
+[33mcommit c2e3dfed6d4f3e79e2db42483dd72fc93d8f28d1[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 29 00:29:53 2023 +0900
+
+    COMMIT
+
+[33mcommit bb2ec2e9b07bcae085475c9e2889a65f9a5c9b57[m
+Merge: 0ad0f37 7bd007a
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 29 00:29:07 2023 +0900
+
+    Merge branch 'master' of https://github.com/JiungChoi/2023-Baekjoon-Solve
+
+[33mcommit 0ad0f378a3365d95d6765f7062090977746e044e[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 29 00:28:09 2023 +0900
+
+    COMMIT
+
+[33mcommit e45b4ca02c37cac8bc606598beeddddb4200d0cc[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 29 00:26:36 2023 +0900
+
+    COMMIT
+
+[33mcommit 7bd007ac85420caaf52a490ab6d8a97e61c4b9ab[m
+Author: JiungChoi <81892025+JiungChoi@users.noreply.github.com>
+Date:   Tue Jun 27 22:23:54 2023 +0900
+
+    Update baekjoon_1967.py
+
+[33mcommit 697df95041b48948434ced23b362f904939d4275[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Jun 27 22:22:42 2023 +0900
+
+    COMMIT
+
+[33mcommit 85db632b7725d3419ea0127b2d52bc50f045e804[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Tue Jun 27 22:19:29 2023 +0900
+
+    GIT
+
+[33mcommit 7b40928add27de7f0769406048f8a825295a658f[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Thu Jun 15 10:19:31 2023 +0900
+
+    COMMIT
+
+[33mcommit e5b1e86a1a77f288dcaf7fb76a51ad72be9d939d[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Sat Jun 10 09:20:48 2023 +0900
+
+    COMMIT
+
+[33mcommit 3121a6c3bd889cfd5b6508725c835f408a536707[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Fri Jun 9 22:51:43 2023 +0900
+
+    COMMIT
+
+[33mcommit 81b348daf0ab6d2abf1412fe029968775a749539[m
+Author: JiungChoi <wldnd6091@gmail.com>
+Date:   Fri Jun 9 21:50:51 2023 +0900
+
+    COMMIT

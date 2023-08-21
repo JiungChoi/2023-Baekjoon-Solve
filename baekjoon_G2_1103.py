@@ -20,7 +20,7 @@
 
 from sys import stdin
 
-
+#
 def getBiggest(board):
     N, M = len(board), len(board[0])
     dp = [[0 for _ in range(M)] for _ in range(N)]

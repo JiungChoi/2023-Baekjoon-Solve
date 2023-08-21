@@ -14,3 +14,5 @@ for now in range(1, N):
     rgb_house[now][2] = min(rgb_house[now-1][0], rgb_house[now-1][1]) + rgb_house[now][2]
 
 print(min(rgb_house[N-1]))
+
+

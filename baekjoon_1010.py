@@ -5,7 +5,7 @@ def factorial(num):
     elif num==1 : return 1
     else: return num*factorial(num-1)
     
-###
+###2
 T = int(stdin.readline())
 
 for _ in range(T):
